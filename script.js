@@ -9,7 +9,7 @@ function fetchingTranslator() {
     .then((json) => {
       console.log(json.contents.translated);
       var translatedTxt = json.contents.translated;
-      outputTxt.innerHTML(translatedTxt);
+      outputTxt.innerText = translatedTxt;
     })
     .catch((e) => console.log("Error: " + e));
   fetchURL = "https://api.funtranslations.com/translate/minion.json";
