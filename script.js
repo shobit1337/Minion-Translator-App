@@ -7,10 +7,12 @@ function fetchingTranslator() {
   fetch(fetchURL)
     .then((response) => response.json())
     .then((json) => {
+      console.log(json.contents.translated);
       var translatedTxt = json.contents.translated;
       outputTxt.innerHTML(translatedTxt);
     })
-    .catch((err) => console.error("Server Not Responding..."));
+    .catch((e) => console.log("Error: " + e));
+  fetchURL = "https://api.funtranslations.com/translate/minion.json";
 }
 
 translateBtn.addEventListener("click", fetchingTranslator);
