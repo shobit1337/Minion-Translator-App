@@ -4,7 +4,7 @@ Minion Speak is translator web app which translates the english sentances to min
 
 🔗Live Link🔗 [Minion Speak](https://minions-translator-app.netlify.app/)
 
-> Note: This project was build by me from scratch. It is markSix project for the admission process in neogcamp by Tanay Pratab more info at: [neog.camp](https://neog.camp)
+> Note: This project was build by me from scratch. It is markSix project for the admission process in neogcamp by Tanay Pratap, more info at: [neog.camp](https://neog.camp)
 
 # Stack
 
