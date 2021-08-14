@@ -22,7 +22,7 @@ body {
   display: flex;
   padding: 3rem;
   justify-content: space-between;
-  background-image: url(/img/minions-banner.png);
+  background-image: url(./img/minions-banner.png);
 }
 
 .footer {
@@ -39,7 +39,6 @@ textarea {
 button {
   background-color: #5ca0f2;
   background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%);
-  color:#F7D217
   width: 12rem;
   height: 8rem;
   margin-top: 5rem;
